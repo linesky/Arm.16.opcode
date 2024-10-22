@@ -1,0 +1,941 @@
+adc r0,r0|4041
+adc r0,r1|4841
+adc r0,r2|5041
+adc r0,r3|5841
+adc r0,r4|6041
+adc r0,r5|6841
+adc r0,r6|7041
+adc r0,r7|7841
+adc r1,r0|4141
+adc r1,r1|4941
+adc r1,r2|5141
+adc r1,r3|5941
+adc r1,r4|6141
+adc r1,r5|6941
+adc r1,r6|7141
+adc r1,r7|7941
+adc r2,r0|4241
+adc r2,r1|4a41
+adc r2,r2|5241
+adc r2,r3|5a41
+adc r2,r4|6241
+adc r2,r5|6a41
+adc r2,r6|7241
+adc r2,r7|7a41
+adc r3,r0|4341
+adc r3,r1|4b41
+adc r3,r2|5341
+adc r3,r3|5b41
+adc r3,r4|6341
+adc r3,r5|6b41
+adc r3,r6|7341
+adc r3,r7|7b41
+adc r4,r0|4441
+adc r4,r1|4c41
+adc r4,r2|5441
+adc r4,r3|5c41
+adc r4,r4|6441
+adc r4,r5|6c41
+adc r4,r6|7441
+adc r4,r7|7c41
+adc r5,r0|4541
+adc r5,r1|4d41
+adc r5,r2|5541
+adc r5,r3|5d41
+adc r5,r4|6541
+adc r5,r5|6d41
+adc r5,r6|7541
+adc r5,r7|7d41
+adc r6,r0|4641
+adc r6,r1|4e41
+adc r6,r2|5641
+adc r6,r3|5e41
+adc r6,r4|6641
+adc r6,r5|6e41
+adc r6,r6|7641
+adc r6,r7|7e41
+adc r7,r0|4741
+adc r7,r1|4f41
+adc r7,r2|5741
+adc r7,r3|5f41
+adc r7,r4|6741
+adc r7,r5|6f41
+adc r7,r6|7741
+adc r7,r7|7f41
+cmp r0,#0|0028
+cmp r0,r0|8042
+cmp r0,r1|8842
+cmp r0,r2|9042
+cmp r0,r3|9842
+cmp r0,r4|a042
+cmp r0,r5|a842
+cmp r0,r6|b042
+cmp r0,r7|b842
+cmp r0,r8|4045
+cmp r1,#0|0029
+cmp r1,r0|8142
+cmp r1,r1|8942
+cmp r1,r2|9142
+cmp r1,r3|9942
+cmp r1,r4|a142
+cmp r1,r5|a942
+cmp r1,r6|b142
+cmp r1,r7|b942
+cmp r1,r8|4145
+cmp r2,#0|002a
+cmp r2,r0|8242
+cmp r2,r1|8a42
+cmp r2,r2|9242
+cmp r2,r3|9a42
+cmp r2,r4|a242
+cmp r2,r5|aa42
+cmp r2,r6|b242
+cmp r2,r7|ba42
+cmp r2,r8|4245
+cmp r3,#0|002b
+cmp r3,r0|8342
+cmp r3,r1|8b42
+cmp r3,r2|9342
+cmp r3,r3|9b42
+cmp r3,r4|a342
+cmp r3,r5|ab42
+cmp r3,r6|b342
+cmp r3,r7|bb42
+cmp r3,r8|4345
+cmp r4,#0|002c
+cmp r4,r0|8442
+cmp r4,r1|8c42
+cmp r4,r2|9442
+cmp r4,r3|9c42
+cmp r4,r4|a442
+cmp r4,r5|ac42
+cmp r4,r6|b442
+cmp r4,r7|bc42
+cmp r4,r8|4445
+cmp r5,#0|002d
+cmp r5,r0|8542
+cmp r5,r1|8d42
+cmp r5,r2|9542
+cmp r5,r3|9d42
+cmp r5,r4|a542
+cmp r5,r5|ad42
+cmp r5,r6|b542
+cmp r5,r7|bd42
+cmp r5,r8|4545
+cmp r6,#0|002e
+cmp r6,r0|8642
+cmp r6,r1|8e42
+cmp r6,r2|9642
+cmp r6,r3|9e42
+cmp r6,r4|a642
+cmp r6,r5|ae42
+cmp r6,r6|b642
+cmp r6,r7|be42
+cmp r6,r8|4645
+cmp r7,#0|002f
+cmp r7,r0|8742
+cmp r7,r1|8f42
+cmp r7,r2|9742
+cmp r7,r3|9f42
+cmp r7,r4|a742
+cmp r7,r5|af42
+cmp r7,r6|b742
+cmp r7,r7|bf42
+cmp r7,r8|4745
+cmp r8,r0|8045
+cmp r8,r1|8845
+cmp r8,r2|9045
+cmp r8,r3|9845
+cmp r8,r4|a045
+cmp r8,r5|a845
+cmp r8,r6|b045
+cmp r8,r7|b845
+cmp r8,r8|c045
+mov r0,#0|0020
+mov r0,r0|001c
+mov r0,r1|081c
+mov r0,r2|101c
+mov r0,r3|181c
+mov r0,r4|201c
+mov r0,r5|281c
+mov r0,r6|301c
+mov r0,r7|381c
+mov r0,r8|4046
+mov r1,#0|0021
+mov r1,r0|011c
+mov r1,r1|091c
+mov r1,r2|111c
+mov r1,r3|191c
+mov r1,r4|211c
+mov r1,r5|291c
+mov r1,r6|311c
+mov r1,r7|391c
+mov r1,r8|4146
+mov r2,#0|0022
+mov r2,r0|021c
+mov r2,r1|0a1c
+mov r2,r2|121c
+mov r2,r3|1a1c
+mov r2,r4|221c
+mov r2,r5|2a1c
+mov r2,r6|321c
+mov r2,r7|3a1c
+mov r2,r8|4246
+mov r3,#0|0023
+mov r3,r0|031c
+mov r3,r1|0b1c
+mov r3,r2|131c
+mov r3,r3|1b1c
+mov r3,r4|231c
+mov r3,r5|2b1c
+mov r3,r6|331c
+mov r3,r7|3b1c
+mov r3,r8|4346
+mov r4,#0|0024
+mov r4,r0|041c
+mov r4,r1|0c1c
+mov r4,r2|141c
+mov r4,r3|1c1c
+mov r4,r4|241c
+mov r4,r5|2c1c
+mov r4,r6|341c
+mov r4,r7|3c1c
+mov r4,r8|4446
+mov r5,#0|0025
+mov r5,r0|051c
+mov r5,r1|0d1c
+mov r5,r2|151c
+mov r5,r3|1d1c
+mov r5,r4|251c
+mov r5,r5|2d1c
+mov r5,r6|351c
+mov r5,r7|3d1c
+mov r5,r8|4546
+mov r6,#0|0026
+mov r6,r0|061c
+mov r6,r1|0e1c
+mov r6,r2|161c
+mov r6,r3|1e1c
+mov r6,r4|261c
+mov r6,r5|2e1c
+mov r6,r6|361c
+mov r6,r7|3e1c
+mov r6,r8|4646
+mov r7,#0|0027
+mov r7,r0|071c
+mov r7,r1|0f1c
+mov r7,r2|171c
+mov r7,r3|1f1c
+mov r7,r4|271c
+mov r7,r5|2f1c
+mov r7,r6|371c
+mov r7,r7|3f1c
+mov r7,r8|4746
+mov r8,r0|8046
+mov r8,r1|8846
+mov r8,r2|9046
+mov r8,r3|9846
+mov r8,r4|a046
+mov r8,r5|a846
+mov r8,r6|b046
+mov r8,r7|b846
+mov r8,r8|c046
+add r0,#0|0030
+add r0,r0|0018
+add r0,r1|4018
+add r0,r2|8018
+add r0,r3|c018
+add r0,r4|0019
+add r0,r5|4019
+add r0,r6|8019
+add r0,r7|c019
+add r0,r8|4044
+add r1,#0|0031
+add r1,r0|0918
+add r1,r1|4918
+add r1,r2|8918
+add r1,r3|c918
+add r1,r4|0919
+add r1,r5|4919
+add r1,r6|8919
+add r1,r7|c919
+add r1,r8|4144
+add r2,#0|0032
+add r2,r0|1218
+add r2,r1|5218
+add r2,r2|9218
+add r2,r3|d218
+add r2,r4|1219
+add r2,r5|5219
+add r2,r6|9219
+add r2,r7|d219
+add r2,r8|4244
+add r3,#0|0033
+add r3,r0|1b18
+add r3,r1|5b18
+add r3,r2|9b18
+add r3,r3|db18
+add r3,r4|1b19
+add r3,r5|5b19
+add r3,r6|9b19
+add r3,r7|db19
+add r3,r8|4344
+add r4,#0|0034
+add r4,r0|2418
+add r4,r1|6418
+add r4,r2|a418
+add r4,r3|e418
+add r4,r4|2419
+add r4,r5|6419
+add r4,r6|a419
+add r4,r7|e419
+add r4,r8|4444
+add r5,#0|0035
+add r5,r0|2d18
+add r5,r1|6d18
+add r5,r2|ad18
+add r5,r3|ed18
+add r5,r4|2d19
+add r5,r5|6d19
+add r5,r6|ad19
+add r5,r7|ed19
+add r5,r8|4544
+add r6,#0|0036
+add r6,r0|3618
+add r6,r1|7618
+add r6,r2|b618
+add r6,r3|f618
+add r6,r4|3619
+add r6,r5|7619
+add r6,r6|b619
+add r6,r7|f619
+add r6,r8|4644
+add r7,#0|0037
+add r7,r0|3f18
+add r7,r1|7f18
+add r7,r2|bf18
+add r7,r3|ff18
+add r7,r4|3f19
+add r7,r5|7f19
+add r7,r6|bf19
+add r7,r7|ff19
+add r7,r8|4744
+add r8,r0|8044
+add r8,r1|8844
+add r8,r2|9044
+add r8,r3|9844
+add r8,r4|a044
+add r8,r5|a844
+add r8,r6|b044
+add r8,r7|b844
+add r8,r8|c044
+sub r0,#0|0038
+sub r0,r0|001a
+sub r0,r1|401a
+sub r0,r2|801a
+sub r0,r3|c01a
+sub r0,r4|001b
+sub r0,r5|401b
+sub r0,r6|801b
+sub r0,r7|c01b
+sub r1,#0|0039
+sub r1,r0|091a
+sub r1,r1|491a
+sub r1,r2|891a
+sub r1,r3|c91a
+sub r1,r4|091b
+sub r1,r5|491b
+sub r1,r6|891b
+sub r1,r7|c91b
+sub r2,#0|003a
+sub r2,r0|121a
+sub r2,r1|521a
+sub r2,r2|921a
+sub r2,r3|d21a
+sub r2,r4|121b
+sub r2,r5|521b
+sub r2,r6|921b
+sub r2,r7|d21b
+sub r3,#0|003b
+sub r3,r0|1b1a
+sub r3,r1|5b1a
+sub r3,r2|9b1a
+sub r3,r3|db1a
+sub r3,r4|1b1b
+sub r3,r5|5b1b
+sub r3,r6|9b1b
+sub r3,r7|db1b
+sub r4,#0|003c
+sub r4,r0|241a
+sub r4,r1|641a
+sub r4,r2|a41a
+sub r4,r3|e41a
+sub r4,r4|241b
+sub r4,r5|641b
+sub r4,r6|a41b
+sub r4,r7|e41b
+sub r5,#0|003d
+sub r5,r0|2d1a
+sub r5,r1|6d1a
+sub r5,r2|ad1a
+sub r5,r3|ed1a
+sub r5,r4|2d1b
+sub r5,r5|6d1b
+sub r5,r6|ad1b
+sub r5,r7|ed1b
+sub r6,#0|003e
+sub r6,r0|361a
+sub r6,r1|761a
+sub r6,r2|b61a
+sub r6,r3|f61a
+sub r6,r4|361b
+sub r6,r5|761b
+sub r6,r6|b61b
+sub r6,r7|f61b
+sub r7,#0|003f
+sub r7,r0|3f1a
+sub r7,r1|7f1a
+sub r7,r2|bf1a
+sub r7,r3|ff1a
+sub r7,r4|3f1b
+sub r7,r5|7f1b
+sub r7,r6|bf1b
+sub r7,r7|ff1b
+and r0,r0|0040
+and r0,r1|0840
+and r0,r2|1040
+and r0,r3|1840
+and r0,r4|2040
+and r0,r5|2840
+and r0,r6|3040
+and r0,r7|3840
+and r1,r0|0140
+and r1,r1|0940
+and r1,r2|1140
+and r1,r3|1940
+and r1,r4|2140
+and r1,r5|2940
+and r1,r6|3140
+and r1,r7|3940
+and r2,r0|0240
+and r2,r1|0a40
+and r2,r2|1240
+and r2,r3|1a40
+and r2,r4|2240
+and r2,r5|2a40
+and r2,r6|3240
+and r2,r7|3a40
+and r3,r0|0340
+and r3,r1|0b40
+and r3,r2|1340
+and r3,r3|1b40
+and r3,r4|2340
+and r3,r5|2b40
+and r3,r6|3340
+and r3,r7|3b40
+and r4,r0|0440
+and r4,r1|0c40
+and r4,r2|1440
+and r4,r3|1c40
+and r4,r4|2440
+and r4,r5|2c40
+and r4,r6|3440
+and r4,r7|3c40
+and r5,r0|0540
+and r5,r1|0d40
+and r5,r2|1540
+and r5,r3|1d40
+and r5,r4|2540
+and r5,r5|2d40
+and r5,r6|3540
+and r5,r7|3d40
+and r6,r0|0640
+and r6,r1|0e40
+and r6,r2|1640
+and r6,r3|1e40
+and r6,r4|2640
+and r6,r5|2e40
+and r6,r6|3640
+and r6,r7|3e40
+and r7,r0|0740
+and r7,r1|0f40
+and r7,r2|1740
+and r7,r3|1f40
+and r7,r4|2740
+and r7,r5|2f40
+and r7,r6|3740
+and r7,r7|3f40
+b r0 | fee7
+b r1 | fee7
+b r2 | fee7
+b r3 | fee7
+b r4 | fee7
+b r5 | fee7
+b r6 | fee7
+b r7 | fee7
+b r8 | fee7
+b [r0] | fee7
+b [r1] | fee7
+b [r2] | fee7
+b [r3] | fee7
+b [r4] | fee7
+b [r5] | fee7
+b [r6] | fee7
+b [r7] | fee7
+b [r8] | fee7
+bcc r0 | fed3
+bcc r1 | fed3
+bcc r2 | fed3
+bcc r3 | fed3
+bcc r4 | fed3
+bcc r5 | fed3
+bcc r6 | fed3
+bcc r7 | fed3
+bcc r8 | fed3
+bcc [r0] | fed3
+bcc [r1] | fed3
+bcc [r2] | fed3
+bcc [r3] | fed3
+bcc [r4] | fed3
+bcc [r5] | fed3
+bcc [r6] | fed3
+bcc [r7] | fed3
+bcc [r8] | fed3
+neg r0,r0|4042
+neg r0,r1|4842
+neg r0,r2|5042
+neg r0,r3|5842
+neg r0,r4|6042
+neg r0,r5|6842
+neg r0,r6|7042
+neg r0,r7|7842
+neg r1,r0|4142
+neg r1,r1|4942
+neg r1,r2|5142
+neg r1,r3|5942
+neg r1,r4|6142
+neg r1,r5|6942
+neg r1,r6|7142
+neg r1,r7|7942
+neg r2,r0|4242
+neg r2,r1|4a42
+neg r2,r2|5242
+neg r2,r3|5a42
+neg r2,r4|6242
+neg r2,r5|6a42
+neg r2,r6|7242
+neg r2,r7|7a42
+neg r3,r0|4342
+neg r3,r1|4b42
+neg r3,r2|5342
+neg r3,r3|5b42
+neg r3,r4|6342
+neg r3,r5|6b42
+neg r3,r6|7342
+neg r3,r7|7b42
+neg r4,r0|4442
+neg r4,r1|4c42
+neg r4,r2|5442
+neg r4,r3|5c42
+neg r4,r4|6442
+neg r4,r5|6c42
+neg r4,r6|7442
+neg r4,r7|7c42
+neg r5,r0|4542
+neg r5,r1|4d42
+neg r5,r2|5542
+neg r5,r3|5d42
+neg r5,r4|6542
+neg r5,r5|6d42
+neg r5,r6|7542
+neg r5,r7|7d42
+neg r6,r0|4642
+neg r6,r1|4e42
+neg r6,r2|5642
+neg r6,r3|5e42
+neg r6,r4|6642
+neg r6,r5|6e42
+neg r6,r6|7642
+neg r6,r7|7e42
+neg r7,r0|4742
+neg r7,r1|4f42
+neg r7,r2|5742
+neg r7,r3|5f42
+neg r7,r4|6742
+neg r7,r5|6f42
+neg r7,r6|7742
+neg r7,r7|7f42
+str r0,[r0]|0060
+str r0,[r1]|0860
+str r0,[r2]|1060
+str r0,[r3]|1860
+str r0,[r4]|2060
+str r0,[r5]|2860
+str r0,[r6]|3060
+str r0,[r7]|3860
+str r1,[r0]|0160
+str r1,[r1]|0960
+str r1,[r2]|1160
+str r1,[r3]|1960
+str r1,[r4]|2160
+str r1,[r5]|2960
+str r1,[r6]|3160
+str r1,[r7]|3960
+str r2,[r0]|0260
+str r2,[r1]|0a60
+str r2,[r2]|1260
+str r2,[r3]|1a60
+str r2,[r4]|2260
+str r2,[r5]|2a60
+str r2,[r6]|3260
+str r2,[r7]|3a60
+str r3,[r0]|0360
+str r3,[r1]|0b60
+str r3,[r2]|1360
+str r3,[r3]|1b60
+str r3,[r4]|2360
+str r3,[r5]|2b60
+str r3,[r6]|3360
+str r3,[r7]|3b60
+str r4,[r0]|0460
+str r4,[r1]|0c60
+str r4,[r2]|1460
+str r4,[r3]|1c60
+str r4,[r4]|2460
+str r4,[r5]|2c60
+str r4,[r6]|3460
+str r4,[r7]|3c60
+str r5,[r0]|0560
+str r5,[r1]|0d60
+str r5,[r2]|1560
+str r5,[r3]|1d60
+str r5,[r4]|2560
+str r5,[r5]|2d60
+str r5,[r6]|3560
+str r5,[r7]|3d60
+str r6,[r0]|0660
+str r6,[r1]|0e60
+str r6,[r2]|1660
+str r6,[r3]|1e60
+str r6,[r4]|2660
+str r6,[r5]|2e60
+str r6,[r6]|3660
+str r6,[r7]|3e60
+str r7,[r0]|0760
+str r7,[r1]|0f60
+str r7,[r2]|1760
+str r7,[r3]|1f60
+str r7,[r4]|2760
+str r7,[r5]|2f60
+str r7,[r6]|3760
+str r7,[r7]|3f60
+sub r0,#0|0038
+sub r0,r0|001a
+sub r0,r1|401a
+sub r0,r2|801a
+sub r0,r3|c01a
+sub r0,r4|001b
+sub r0,r5|401b
+sub r0,r6|801b
+sub r0,r7|c01b
+sub r1,#0|0039
+sub r1,r0|091a
+sub r1,r1|491a
+sub r1,r2|891a
+sub r1,r3|c91a
+sub r1,r4|091b
+sub r1,r5|491b
+sub r1,r6|891b
+sub r1,r7|c91b
+sub r2,#0|003a
+sub r2,r0|121a
+sub r2,r1|521a
+sub r2,r2|921a
+sub r2,r3|d21a
+sub r2,r4|121b
+sub r2,r5|521b
+sub r2,r6|921b
+sub r2,r7|d21b
+sub r3,#0|003b
+sub r3,r0|1b1a
+sub r3,r1|5b1a
+sub r3,r2|9b1a
+sub r3,r3|db1a
+sub r3,r4|1b1b
+sub r3,r5|5b1b
+sub r3,r6|9b1b
+sub r3,r7|db1b
+sub r4,#0|003c
+sub r4,r0|241a
+sub r4,r1|641a
+sub r4,r2|a41a
+sub r4,r3|e41a
+sub r4,r4|241b
+sub r4,r5|641b
+sub r4,r6|a41b
+sub r4,r7|e41b
+sub r5,#0|003d
+sub r5,r0|2d1a
+sub r5,r1|6d1a
+sub r5,r2|ad1a
+sub r5,r3|ed1a
+sub r5,r4|2d1b
+sub r5,r5|6d1b
+sub r5,r6|ad1b
+sub r5,r7|ed1b
+sub r6,#0|003e
+sub r6,r0|361a
+sub r6,r1|761a
+sub r6,r2|b61a
+sub r6,r3|f61a
+sub r6,r4|361b
+sub r6,r5|761b
+sub r6,r6|b61b
+sub r6,r7|f61b
+sub r7,#0|003f
+sub r7,r0|3f1a
+sub r7,r1|7f1a
+sub r7,r2|bf1a
+sub r7,r3|ff1a
+sub r7,r4|3f1b
+sub r7,r5|7f1b
+sub r7,r6|bf1b
+sub r7,r7|ff1b
+mul r0,r0|4043
+mul r0,r1|4843
+mul r0,r2|5043
+mul r0,r3|5843
+mul r0,r4|6043
+mul r0,r5|6843
+mul r0,r6|7043
+mul r0,r7|7843
+mul r1,r0|4143
+mul r1,r1|4943
+mul r1,r2|5143
+mul r1,r3|5943
+mul r1,r4|6143
+mul r1,r5|6943
+mul r1,r6|7143
+mul r1,r7|7943
+mul r2,r0|4243
+mul r2,r1|4a43
+mul r2,r2|5243
+mul r2,r3|5a43
+mul r2,r4|6243
+mul r2,r5|6a43
+mul r2,r6|7243
+mul r2,r7|7a43
+mul r3,r0|4343
+mul r3,r1|4b43
+mul r3,r2|5343
+mul r3,r3|5b43
+mul r3,r4|6343
+mul r3,r5|6b43
+mul r3,r6|7343
+mul r3,r7|7b43
+mul r4,r0|4443
+mul r4,r1|4c43
+mul r4,r2|5443
+mul r4,r3|5c43
+mul r4,r4|6443
+mul r4,r5|6c43
+mul r4,r6|7443
+mul r4,r7|7c43
+mul r5,r0|4543
+mul r5,r1|4d43
+mul r5,r2|5543
+mul r5,r3|5d43
+mul r5,r4|6543
+mul r5,r5|6d43
+mul r5,r6|7543
+mul r5,r7|7d43
+mul r6,r0|4643
+mul r6,r1|4e43
+mul r6,r2|5643
+mul r6,r3|5e43
+mul r6,r4|6643
+mul r6,r5|6e43
+mul r6,r6|7643
+mul r6,r7|7e43
+mul r7,r0|4743
+mul r7,r1|4f43
+mul r7,r2|5743
+mul r7,r3|5f43
+mul r7,r4|6743
+mul r7,r5|6f43
+mul r7,r6|7743
+mul r7,r7|7f43
+udiv r0,r0|b0fbf0f0
+udiv r0,r1|b0fbf1f0
+udiv r0,r2|b0fbf2f0
+udiv r0,r3|b0fbf3f0
+udiv r0,r4|b0fbf4f0
+udiv r0,r5|b0fbf5f0
+udiv r0,r6|b0fbf6f0
+udiv r0,r7|b0fbf7f0
+udiv r0,r8|b0fbf8f0
+udiv r1,r0|b1fbf0f1
+udiv r1,r1|b1fbf1f1
+udiv r1,r2|b1fbf2f1
+udiv r1,r3|b1fbf3f1
+udiv r1,r4|b1fbf4f1
+udiv r1,r5|b1fbf5f1
+udiv r1,r6|b1fbf6f1
+udiv r1,r7|b1fbf7f1
+udiv r1,r8|b1fbf8f1
+udiv r2,r0|b2fbf0f2
+udiv r2,r1|b2fbf1f2
+udiv r2,r2|b2fbf2f2
+udiv r2,r3|b2fbf3f2
+udiv r2,r4|b2fbf4f2
+udiv r2,r5|b2fbf5f2
+udiv r2,r6|b2fbf6f2
+udiv r2,r7|b2fbf7f2
+udiv r2,r8|b2fbf8f2
+udiv r3,r0|b3fbf0f3
+udiv r3,r1|b3fbf1f3
+udiv r3,r2|b3fbf2f3
+udiv r3,r3|b3fbf3f3
+udiv r3,r4|b3fbf4f3
+udiv r3,r5|b3fbf5f3
+udiv r3,r6|b3fbf6f3
+udiv r3,r7|b3fbf7f3
+udiv r3,r8|b3fbf8f3
+udiv r4,r0|b4fbf0f4
+udiv r4,r1|b4fbf1f4
+udiv r4,r2|b4fbf2f4
+udiv r4,r3|b4fbf3f4
+udiv r4,r4|b4fbf4f4
+udiv r4,r5|b4fbf5f4
+udiv r4,r6|b4fbf6f4
+udiv r4,r7|b4fbf7f4
+udiv r4,r8|b4fbf8f4
+udiv r5,r0|b5fbf0f5
+udiv r5,r1|b5fbf1f5
+udiv r5,r2|b5fbf2f5
+udiv r5,r3|b5fbf3f5
+udiv r5,r4|b5fbf4f5
+udiv r5,r5|b5fbf5f5
+udiv r5,r6|b5fbf6f5
+udiv r5,r7|b5fbf7f5
+udiv r5,r8|b5fbf8f5
+udiv r6,r0|b6fbf0f6
+udiv r6,r1|b6fbf1f6
+udiv r6,r2|b6fbf2f6
+udiv r6,r3|b6fbf3f6
+udiv r6,r4|b6fbf4f6
+udiv r6,r5|b6fbf5f6
+udiv r6,r6|b6fbf6f6
+udiv r6,r7|b6fbf7f6
+udiv r6,r8|b6fbf8f6
+udiv r7,r0|b7fbf0f7
+udiv r7,r1|b7fbf1f7
+udiv r7,r2|b7fbf2f7
+udiv r7,r3|b7fbf3f7
+udiv r7,r4|b7fbf4f7
+udiv r7,r5|b7fbf5f7
+udiv r7,r6|b7fbf6f7
+udiv r7,r7|b7fbf7f7
+udiv r7,r8|b7fbf8f7
+udiv r8,r0|b8fbf0f8
+udiv r8,r1|b8fbf1f8
+udiv r8,r2|b8fbf2f8
+udiv r8,r3|b8fbf3f8
+udiv r8,r4|b8fbf4f8
+udiv r8,r5|b8fbf5f8
+udiv r8,r6|b8fbf6f8
+udiv r8,r7|b8fbf7f8
+udiv r8,r8|b8fbf8f8
+bne r0 | fed1
+bne r1 | fed1
+bne r2 | fed1
+bne r3 | fed1
+bne r4 | fed1
+bne r5 | fed1
+bne r6 | fed1
+bne r7 | fed1
+bne r8 | fed1
+bne [r0] | fed1
+bne [r1] | fed1
+bne [r2] | fed1
+bne [r3] | fed1
+bne [r4] | fed1
+bne [r5] | fed1
+bne [r6] | fed1
+bne [r7] | fed1
+bne [r8] | fed1
+bl r0 | fff7feff
+bl r1 | fff7feff
+bl r2 | fff7feff
+bl r3 | fff7feff
+bl r4 | fff7feff
+bl r5 | fff7feff
+bl r6 | fff7feff
+bl r7 | fff7feff
+bl r8 | fff7feff
+bl [r0] | fff7feff
+bl [r1] | fff7feff
+bl [r2] | fff7feff
+bl [r3] | fff7feff
+bl [r4] | fff7feff
+bl [r5] | fff7feff
+bl [r6] | fff7feff
+bl [r7] | fff7feff
+bl [r8] | fff7feff
+blt r0 | fedb
+blt r1 | fedb
+blt r2 | fedb
+blt r3 | fedb
+blt r4 | fedb
+blt r5 | fedb
+blt r6 | fedb
+blt r7 | fedb
+blt r8 | fedb
+blt [r0] | fedb
+blt [r1] | fedb
+blt [r2] | fedb
+blt [r3] | fedb
+blt [r4] | fedb
+blt [r5] | fedb
+blt [r6] | fedb
+blt [r7] | fedb
+blt [r8] | fedb
+beq r0 | fed0
+beq r1 | fed0
+beq r2 | fed0
+beq r3 | fed0
+beq r4 | fed0
+beq r5 | fed0
+beq r6 | fed0
+beq r7 | fed0
+beq r8 | fed0
+beq [r0] | fed0
+beq [r1] | fed0
+beq [r2] | fed0
+beq [r3] | fed0
+beq [r4] | fed0
+beq [r5] | fed0
+beq [r6] | fed0
+beq [r7] | fed0
+beq [r8] | fed0
+ | 
+ #0 | 
+ #0,#0|
+ #0,r0|
+ #0,r1|
+ #0,r2|
+ #0,r3|
+ #0,r4|
+ #0,r5|
+ #0,r6|
+ #0,r7|
+ #0,r8|
+ #0,[r0]|
+ #0,[r1]|
+ #0,[r2]|
+ #0,[r3]|
+ #0,[r4]|
+ #0,[r5]|
+ #0,[r6]|
+ #0,[r7]|
+ #0,[r8]|
