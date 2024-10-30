@@ -21,7 +21,7 @@ while ttrue:
             
             
             s1="#"+sp[c]+"\n"
-            s4=s1+"func "+sp[c]+"():\n    values=0\n"
+            s4=s1+"def "+sp[c]+"():\n    values=0\n"
             
             code=code+s4
 
