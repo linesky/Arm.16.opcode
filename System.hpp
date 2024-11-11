@@ -1319,6 +1319,55 @@ class Consoles{
             printf(i.ToString());
         };
 
+        void log(const char *c){
+            puts(c);
+        };
+        void log(Variantes c){
+            puts(c.ToString());
+        };
+
+        void log(String c){
+            puts(c.ToString());
+        };
+        void log(string c){
+            puts(c.ToString());
+        };
+        void log(Integer c){
+            puts(c.ToString());
+        };
+        void log(Long c){
+            puts(c.ToString());
+        };
+        void log(){
+            puts("");
+        };
+        void log(Float c){
+            puts(c.ToString());
+        };
+        void log(Double c){
+            puts(c.ToString());
+        };
+        void log(Int32 c){
+            puts(c.ToString());
+        };
+        void log(float c){
+            Float i(c);
+            puts(i.ToString());
+        };
+        void log(double c){
+            Double i(c);
+            puts(i.ToString());
+        };
+        void log(long c){
+            Long i(c);
+            puts(i.ToString());
+        };
+
+        void log(int c){
+            Int32 i(c);
+            puts(i.ToString());
+        };
+
 
 
         char *ReadLine(const char *c){
@@ -1460,5 +1509,6 @@ void frees(){
     long i=0;
     if (i>0)for (i=0;i<maxpagesss;i++)if( maxpagess[i]!=NULL)free( maxpagess[i]);
 }
+Consoles console;
 Consoles Console;
 Systems System;
